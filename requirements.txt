@@ -1,0 +1,24 @@
+# Requirements for YouTube Speed Recommender backend
+# Core web framework
+fastapi>=0.95.0
+uvicorn[standard]>=0.22.0
+
+# YouTube/audio download & processing
+yt-dlp>=2024.12.0
+pytubefix>=0.6.0
+
+# Audio processing, transcription
+faster-whisper>=0.4.0
+torch>=2.2.0
+torchaudio>=2.2.0
+librosa>=0.10.0
+soundfile>=0.12.1
+
+# Numeric/utility
+numpy>=1.25.0
+scipy>=1.11.0
+
+# Optional: useful for local development
+pydantic>=1.10.7
+
+# Note: ffmpeg is required on the PATH (install from https://ffmpeg.org)
