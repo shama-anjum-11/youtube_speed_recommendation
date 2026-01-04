@@ -85,3 +85,4 @@ Key frontend files:
   - `api.ts` (defines `API_BASE`)
 
 Frontend directory:
+https://github.com/shama-anjum-11/youtube-speed-guide
